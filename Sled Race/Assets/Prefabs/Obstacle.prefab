@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8823308400279199665}
   - component: {fileID: 8823308400279199670}
   - component: {fileID: 8823308400279199671}
+  - component: {fileID: -1793964700543428506}
   - component: {fileID: 8823308400279199664}
   m_Layer: 0
   m_Name: Obstacle
@@ -84,6 +85,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-1793964700543428506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8823308400279199666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 480a5f92f7f843e4abf2920fd9ee9c86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!65 &8823308400279199664
 BoxCollider:
   m_ObjectHideFlags: 0
