@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour
     public Rigidbody rb;
     [SerializeField] float vitesseDeplacement = 5f;
     [SerializeField] float minVelocityZ = 5;
+    [SerializeField] GameObject ground;
+    [SerializeField] float velocityMax = 20;
 
     void Start()
     {
@@ -20,7 +22,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
 
-        Debug.Log("en vie : " + alive+" "+ rb.velocity);
+        //print("en vie : " + alive+" "+ rb.velocity);
 
         if (rb.velocity.z < minVelocityZ)
         {
@@ -45,8 +47,16 @@ public class PlayerController : MonoBehaviour
         //    Debug.Log("die");
         //    Die();
         //}
-    }
 
+
+    }
+    private void FixedUpdate()
+    {
+        if(rb.velocity.magnitude > velocityMax)
+        {
+            rb.velocity = rb.velocity.normalized * velocityMax;
+        }
+    }
     public void Die ()
     {
         alive = false;

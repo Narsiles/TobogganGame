@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class GroundTile : MonoBehaviour
 {
-
     Ground groundSpawner;
+    GameObject playerRef;
 
     // Start is called before the first frame update
     void Start()
     {
         groundSpawner = GameObject.FindObjectOfType<Ground>();
         SpawnObstacle();
+        playerRef = GameObject.FindGameObjectWithTag("Player");
     }
 
     private void OnTriggerExit(Collider other)
@@ -23,7 +24,7 @@ public class GroundTile : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log(Physics.gravity);
     }
 
     public GameObject obstaclePrefab;
@@ -36,4 +37,5 @@ public class GroundTile : MonoBehaviour
         Instantiate(obstaclePrefab, spawnPoint.position, Quaternion.identity, transform);
 
     }
+
 }

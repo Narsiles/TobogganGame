@@ -12,8 +12,7 @@ public class Obstacle : MonoBehaviour
     {
         playerController = GameObject.FindObjectOfType<PlayerController>();
         playerRef = GameObject.FindGameObjectWithTag("Player");
-    }
-
+    } 
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject == playerRef)
