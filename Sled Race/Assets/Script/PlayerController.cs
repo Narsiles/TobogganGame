@@ -41,14 +41,6 @@ public class PlayerController : MonoBehaviour
         }
 
         if (!alive) return;
-
-        //if (transform.position.y < -5)
-        //{
-        //    Debug.Log("die");
-        //    Die();
-        //}
-
-
     }
     private void FixedUpdate()
     {

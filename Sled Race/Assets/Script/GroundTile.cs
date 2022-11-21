@@ -16,9 +16,9 @@ public class GroundTile : MonoBehaviour
     }
 
     private void OnTriggerExit(Collider other)
-    {
-        groundSpawner.SpawnTile();
-        Destroy(gameObject, 2);
+    {      
+            //groundSpawner.SpawnTile();
+            Destroy(gameObject, 2);
     }
 
     // Update is called once per frame
@@ -31,10 +31,20 @@ public class GroundTile : MonoBehaviour
 
     void SpawnObstacle ()
     {
-        int obstacleSpawnIndex = Random.Range(2, 5);
+        int obstacleSpawnIndex = Random.Range(2, transform.childCount);
         Transform spawnPoint = transform.GetChild(obstacleSpawnIndex).transform;
-
-        Instantiate(obstaclePrefab, spawnPoint.position, Quaternion.identity, transform);
+        if (spawnPoint.childCount > 0)
+        {
+            for(int i = 0; i < spawnPoint.childCount; i++)
+            {
+                Instantiate(obstaclePrefab, spawnPoint.GetChild(i).position, Quaternion.identity, transform);
+            }      
+        }
+        else
+        {
+            Instantiate(obstaclePrefab, spawnPoint.position, Quaternion.identity, transform);
+        }
+        
 
     }
 

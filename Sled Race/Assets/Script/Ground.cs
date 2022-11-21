@@ -17,11 +17,10 @@ public class Ground : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 0; i < 15; i ++)
+        for (int i = 0; i < 35; i ++)
         {
             SpawnTile();
         }
-        
     }
 
 }
