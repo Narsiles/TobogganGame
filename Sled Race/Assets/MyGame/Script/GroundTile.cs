@@ -25,7 +25,7 @@ public class GroundTile : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(Physics.gravity);
+
     }
 
     public GameObject obstaclePrefab;

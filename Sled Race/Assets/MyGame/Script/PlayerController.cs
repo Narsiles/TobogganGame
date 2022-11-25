@@ -20,13 +20,17 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
         //print("en vie : " + alive+" "+ rb.velocity);
 
         if (!alive) return;
     }
     private void FixedUpdate()
     {
+
+        velocityMax = gameObject.transform.position.z/500f * 10f + 35f;
+        Debug.Log(velocityMax);
+
         if (rb.velocity.z < minVelocityZ)
         {
             rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, minVelocityZ);
@@ -62,6 +66,27 @@ public class PlayerController : MonoBehaviour
             rb.velocity = rb.velocity.normalized * velocityMax;
         }
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "ground")
+        {
+            Debug.Log("PlayerOnGround");
+            gameObject.transform.GetChild(1).GetComponent<ParticleSystem>().emissionRate = 50;
+        }
+    }
+
+    private void OnCollisionExit(Collision collision)
+    {
+
+        if (collision.gameObject.tag == "ground")
+        {
+            Debug.Log("PlayerOnGround");
+            gameObject.transform.GetChild(1).GetComponent<ParticleSystem>().emissionRate = 0;
+        }
+    }
+
+
     public void Die ()
     {
         alive = false;
