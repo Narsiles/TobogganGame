@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float minVelocityZ = 5;
     [SerializeField] GameObject ground;
     [SerializeField] float velocityMax = 20;
+    float timeChelou = Time.deltaTime;
 
     void Start()
     {
@@ -29,7 +30,7 @@ public class PlayerController : MonoBehaviour
     {
 
         velocityMax = gameObject.transform.position.z/500f * 10f + 35f;
-        Debug.Log(velocityMax);
+        //Debug.Log(velocityMax);
 
         if (rb.velocity.z < minVelocityZ)
         {
@@ -69,19 +70,19 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "ground")
+        if (collision.gameObject.tag == "Sled")
         {
-            Debug.Log("PlayerOnGround");
-            gameObject.transform.GetChild(1).GetComponent<ParticleSystem>().emissionRate = 50;
+            //Debug.Log("PlayerOnGround");
+            gameObject.transform.GetChild(1).GetComponent<ParticleSystem>().emissionRate = 50; 
         }
     }
 
     private void OnCollisionExit(Collision collision)
     {
-
-        if (collision.gameObject.tag == "ground")
+        timeChelou = 0;
+        if (collision.gameObject.tag == "Sled" && timeChelou >= 1)
         {
-            Debug.Log("PlayerOnGround");
+            //Debug.Log("PlayerOnGround");
             gameObject.transform.GetChild(1).GetComponent<ParticleSystem>().emissionRate = 0;
         }
     }

@@ -23,7 +23,7 @@ public class Obstacle : MonoBehaviour
     {
         if (collision.gameObject == playerRef)
         {
-            Debug.Log("Playerdie");
+            //Debug.Log("Playerdie");
             //Kill player
             playerController.Die();
         }

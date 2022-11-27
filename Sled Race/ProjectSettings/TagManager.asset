@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ground
   - tree
+  - Sled
   layers:
   - Default
   - TransparentFX

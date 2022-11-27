@@ -6,7 +6,8 @@ public class GroundTile : MonoBehaviour
 {
     Ground groundSpawner;
     GameObject playerRef;
-    private int counter = 0;
+    int Point;
+
 
     // Start is called before the first frame update
     void Start()
@@ -17,15 +18,16 @@ public class GroundTile : MonoBehaviour
     }
 
     private void OnTriggerExit(Collider other)
-    {      
-            //groundSpawner.SpawnTile();
-            Destroy(gameObject, 2);
+    {
+        groundSpawner.SpawnTile();
+        Destroy(gameObject, 2);
     }
+        
 
     // Update is called once per frame
     void Update()
     {
-
+    
     }
 
     public GameObject obstaclePrefab;
