@@ -15,7 +15,7 @@ C:/LogicielImportant/GithubEcoles/TobogganGame/Sled Race
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62992
+55003
 Successfully changed project path to: C:/LogicielImportant/GithubEcoles/TobogganGame/Sled Race
 C:/LogicielImportant/GithubEcoles/TobogganGame/Sled Race
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/LogicielImportant/GithubEcoles/TobogganGame/Sled Race
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 56.20 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 51.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path C:/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -63,225 +63,156 @@ Initialize mono
 Mono path[0] = 'C:/2021.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001553 seconds.
+Registered in 0.001594 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 53.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 50.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.419 seconds
+- Completed reload, in  0.378 seconds
 Domain Reload Profiling:
-	ReloadAssembly (419ms)
-		BeginReloadAssembly (53ms)
+	ReloadAssembly (378ms)
+		BeginReloadAssembly (43ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (297ms)
-			LoadAssemblies (52ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (275ms)
+			LoadAssemblies (41ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (65ms)
+			SetupTypeCache (63ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (179ms)
+			RebuildScriptCaches (15ms)
+			SetupLoadedEditorAssemblies (165ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (53ms)
+				RefreshPlugins (51ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (89ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002260 seconds.
+Registered in 0.002977 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\LogicielImportant\GithubEcoles\TobogganGame\Sled Race\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\LogicielImportant\GithubEcoles\TobogganGame\Sled Race\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 Package Manager log level set to [2]
-- Completed reload, in  0.674 seconds
+- Completed reload, in  0.615 seconds
 Domain Reload Profiling:
-	ReloadAssembly (674ms)
-		BeginReloadAssembly (79ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (13ms)
-		EndReloadAssembly (526ms)
-			LoadAssemblies (52ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (142ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (265ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (181ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4065 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (211.6 KB). Loaded Objects now: 4514.
-Memory consumption went from 144.0 MB to 143.8 MB.
-Total: 2.187100 ms (FindLiveObjects: 0.220700 ms CreateObjectMapping: 0.089900 ms MarkObjects: 1.772400 ms  DeleteObjects: 0.103500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 306481.925953 seconds.
-  path: Assets/Map.physicMaterial
-  artifactKey: Guid(2d183fc0466601740aa476805eed26ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map.physicMaterial using Guid(2d183fc0466601740aa476805eed26ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7546d412d73fd2597c46efa2c6b50257') in 0.026003 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002852 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\LogicielImportant\GithubEcoles\TobogganGame\Sled Race\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\LogicielImportant\GithubEcoles\TobogganGame\Sled Race\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.618 seconds
-Domain Reload Profiling:
-	ReloadAssembly (618ms)
-		BeginReloadAssembly (85ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (478ms)
-			LoadAssemblies (44ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (142ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (236ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (163ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4041 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (186.3 KB). Loaded Objects now: 4530.
-Memory consumption went from 141.9 MB to 141.7 MB.
-Total: 2.219400 ms (FindLiveObjects: 0.218900 ms CreateObjectMapping: 0.084800 ms MarkObjects: 1.829700 ms  DeleteObjects: 0.084900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 212.236547 seconds.
-  path: Assets/MyGame/Script/PlayerController.cs
-  artifactKey: Guid(755dfa7804357ee4086b131d78dc8384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Script/PlayerController.cs using Guid(755dfa7804357ee4086b131d78dc8384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66ae105fb9d77637d3ee7e31c68ecab') in 0.010496 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 33.796895 seconds.
-  path: Assets/MyGame/Script/Score.cs
-  artifactKey: Guid(13e4aa3a99b98804d96d54c81c7c9522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Script/Score.cs using Guid(13e4aa3a99b98804d96d54c81c7c9522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597930691cd49df9bc1f1eccc4d6b5f0') in 0.001102 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002495 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\LogicielImportant\GithubEcoles\TobogganGame\Sled Race\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\LogicielImportant\GithubEcoles\TobogganGame\Sled Race\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.643 seconds
-Domain Reload Profiling:
-	ReloadAssembly (643ms)
-		BeginReloadAssembly (91ms)
+	ReloadAssembly (616ms)
+		BeginReloadAssembly (60ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (496ms)
-			LoadAssemblies (52ms)
+			CreateAndSetChildDomain (12ms)
+		EndReloadAssembly (489ms)
+			LoadAssemblies (44ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (153ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (232ms)
+			SetupTypeCache (134ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (246ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (43ms)
-				ProcessInitializeOnLoadAttributes (160ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (168ms)
 				ProcessInitializeOnLoadMethodAttributes (17ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4068 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (211.5 KB). Loaded Objects now: 4517.
+Memory consumption went from 144.1 MB to 143.9 MB.
+Total: 2.033500 ms (FindLiveObjects: 0.172800 ms CreateObjectMapping: 0.078400 ms MarkObjects: 1.680500 ms  DeleteObjects: 0.101300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 311179.708495 seconds.
+  path: Assets/MyGame/Scenes/Game.unity
+  artifactKey: Guid(dcb999578e662d74b9d8f4cd34511579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Scenes/Game.unity using Guid(dcb999578e662d74b9d8f4cd34511579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fee91625fab34145ad2e03786153073') in 0.004849 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002576 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\LogicielImportant\GithubEcoles\TobogganGame\Sled Race\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\LogicielImportant\GithubEcoles\TobogganGame\Sled Race\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.592 seconds
+Domain Reload Profiling:
+	ReloadAssembly (592ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (448ms)
+			LoadAssemblies (42ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (138ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (212ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (144ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 1.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4044 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (178.7 KB). Loaded Objects now: 4548.
+Unloading 36 unused Assets / (179.6 KB). Loaded Objects now: 4532.
 Memory consumption went from 142.0 MB to 141.8 MB.
-Total: 2.132600 ms (FindLiveObjects: 0.176800 ms CreateObjectMapping: 0.083400 ms MarkObjects: 1.780900 ms  DeleteObjects: 0.090900 ms)
+Total: 2.046600 ms (FindLiveObjects: 0.177100 ms CreateObjectMapping: 0.088600 ms MarkObjects: 1.697300 ms  DeleteObjects: 0.082800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -295,118 +226,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 97.157532 seconds.
-  path: Assets/MyGame/Script/PlayerController.cs
-  artifactKey: Guid(755dfa7804357ee4086b131d78dc8384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Script/PlayerController.cs using Guid(755dfa7804357ee4086b131d78dc8384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc9f9cba2055bef22ae1c14ebd567d1') in 0.005556 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.244189 seconds.
+  Time since last request: 116.886121 seconds.
   path: Assets/MyGame/Script/Obstacle.cs
   artifactKey: Guid(480a5f92f7f843e4abf2920fd9ee9c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Script/Obstacle.cs using Guid(480a5f92f7f843e4abf2920fd9ee9c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79cdc694794dc0deec7cc52c8c3ed50') in 0.000870 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.603258 seconds.
-  path: Assets/MyGame/Script/GroundTile.cs
-  artifactKey: Guid(c1f89a2d82609a046824fcf06103429f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Script/GroundTile.cs using Guid(c1f89a2d82609a046824fcf06103429f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da1e2d9a6ddb082455bcd092b091bb8') in 0.001658 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 26.904558 seconds.
-  path: Assets/MyGame/Script/GroundTile.cs
-  artifactKey: Guid(c1f89a2d82609a046824fcf06103429f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Script/GroundTile.cs using Guid(c1f89a2d82609a046824fcf06103429f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e397527b20b72573877ac8d2cbef7077') in 0.001040 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003009 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\LogicielImportant\GithubEcoles\TobogganGame\Sled Race\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\LogicielImportant\GithubEcoles\TobogganGame\Sled Race\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.630 seconds
-Domain Reload Profiling:
-	ReloadAssembly (631ms)
-		BeginReloadAssembly (86ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (487ms)
-			LoadAssemblies (48ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (143ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (238ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (43ms)
-				ProcessInitializeOnLoadAttributes (166ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.99 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4044 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (163.2 KB). Loaded Objects now: 4563.
-Memory consumption went from 142.0 MB to 141.9 MB.
-Total: 1.957600 ms (FindLiveObjects: 0.163300 ms CreateObjectMapping: 0.073000 ms MarkObjects: 1.632800 ms  DeleteObjects: 0.087900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 939.549735 seconds.
-  path: Assets/MyGame/Prefabs/GoundTile.prefab
-  artifactKey: Guid(a044cc71743d0a046a413e475db36f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Prefabs/GoundTile.prefab using Guid(a044cc71743d0a046a413e475db36f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43323bb5f29e4f0469c4125bba14a748') in 0.107249 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.502901 seconds.
-  path: Assets/MyGame/Scenes/SampleScene.unity
-  artifactKey: Guid(c850ee8c3b14cc8459e7e186857cf567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Scenes/SampleScene.unity using Guid(c850ee8c3b14cc8459e7e186857cf567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d74758cb4ae6c57c3ba8f532dbb984') in 0.000937 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.507359 seconds.
-  path: Assets/MyGame/Scenes/GAME.unity
-  artifactKey: Guid(c850ee8c3b14cc8459e7e186857cf567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Scenes/GAME.unity using Guid(c850ee8c3b14cc8459e7e186857cf567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffeba2d8c468da49d6cecafcc0e6e73') in 0.001143 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.389815 seconds.
-  path: Assets/MyGame/Scenes/Game.unity
-  artifactKey: Guid(c850ee8c3b14cc8459e7e186857cf567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Scenes/Game.unity using Guid(c850ee8c3b14cc8459e7e186857cf567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6e96e027e270a68d550c92e4f13577') in 0.001006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.826295 seconds.
-  path: Assets/MyGame/Scenes/Menu.unity
-  artifactKey: Guid(d1616427c23a62646a78d3814bb6568c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Scenes/Menu.unity using Guid(d1616427c23a62646a78d3814bb6568c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a981745e6e96c6a0e840e692c9bea9') in 0.012630 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 239.186652 seconds.
-  path: Assets/MyGame/Scenes/Menu.unity
-  artifactKey: Guid(d1616427c23a62646a78d3814bb6568c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyGame/Scenes/Menu.unity using Guid(d1616427c23a62646a78d3814bb6568c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7e89a530fe413e75bc6971b5d0f560') in 0.000790 seconds 
+Start importing Assets/MyGame/Script/Obstacle.cs using Guid(480a5f92f7f843e4abf2920fd9ee9c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c17ae49acb71cf031d4c16507e92909') in 0.017582 seconds 
