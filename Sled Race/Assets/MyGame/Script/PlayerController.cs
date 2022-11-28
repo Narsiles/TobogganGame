@@ -81,7 +81,7 @@ public class PlayerController : MonoBehaviour
 
 
     public void Death()
-    {
+    {    
         audioPlayer.Play();
         isDead = false;
         GetComponent<Score>().OnDeath();
