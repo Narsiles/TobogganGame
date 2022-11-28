@@ -6,13 +6,15 @@ using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
     private Vector3 moveVector;
-    bool alive = true;
+    bool isDead = true;
     public Rigidbody rb;
     [SerializeField] float vitesseDeplacement = 5f;
     [SerializeField] float minVelocityZ = 5;
     [SerializeField] GameObject ground;
     [SerializeField] float velocityMax = 20;
-    float timeChelou = Time.deltaTime;
+    public AudioSource audioPlayer;
+
+
 
     void Start()
     {
@@ -21,15 +23,15 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
         //print("en vie : " + alive+" "+ rb.velocity);
 
-        if (!alive) return;
+        if (!isDead) return;
     }
     private void FixedUpdate()
     {
 
-        velocityMax = gameObject.transform.position.z/500f * 10f + 35f;
+        velocityMax = gameObject.transform.position.z / 500f * 10f + 35f;
         //Debug.Log(velocityMax);
 
         if (rb.velocity.z < minVelocityZ)
@@ -53,7 +55,7 @@ public class PlayerController : MonoBehaviour
             if (Input.mousePosition.x > Screen.width / 2)
             {
                 rb.velocity += new Vector3(vitesseDeplacement, 0, 0);
-                
+
 
             }
             else
@@ -73,24 +75,17 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.tag == "Sled")
         {
             //Debug.Log("PlayerOnGround");
-            gameObject.transform.GetChild(1).GetComponent<ParticleSystem>().emissionRate = 50; 
-        }
-    }
-
-    private void OnCollisionExit(Collision collision)
-    {
-        timeChelou = 0;
-        if (collision.gameObject.tag == "Sled" && timeChelou >= 1)
-        {
-            //Debug.Log("PlayerOnGround");
-            gameObject.transform.GetChild(1).GetComponent<ParticleSystem>().emissionRate = 0;
+            gameObject.transform.GetChild(1).GetComponent<ParticleSystem>().emissionRate = 50;
         }
     }
 
 
-    public void Die ()
+    public void Death()
     {
-        alive = false;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        audioPlayer.Play();
+        isDead = false;
+        GetComponent<Score>().OnDeath();
+        rb.velocity = new Vector3(0, 0, 0);
+        Debug.Log(rb.velocity);
     }
 }

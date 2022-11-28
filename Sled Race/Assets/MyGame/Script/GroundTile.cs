@@ -6,8 +6,6 @@ public class GroundTile : MonoBehaviour
 {
     Ground groundSpawner;
     GameObject playerRef;
-    int Point;
-
 
     // Start is called before the first frame update
     void Start()
@@ -22,32 +20,31 @@ public class GroundTile : MonoBehaviour
         groundSpawner.SpawnTile();
         Destroy(gameObject, 2);
     }
-        
 
     // Update is called once per frame
     void Update()
     {
-    
+
     }
 
     public GameObject obstaclePrefab;
 
-    void SpawnObstacle ()
+    void SpawnObstacle()
     {
         int obstacleSpawnIndex = Random.Range(2, transform.childCount);
         Transform spawnPoint = transform.GetChild(obstacleSpawnIndex).transform;
         if (spawnPoint.childCount > 0)
         {
-            for(int i = 0; i < spawnPoint.childCount; i++)
+            for (int i = 0; i < spawnPoint.childCount; i++)
             {
                 Instantiate(obstaclePrefab, spawnPoint.GetChild(i).position, Quaternion.identity, transform);
-            }      
+            }
         }
         else
         {
             Instantiate(obstaclePrefab, spawnPoint.position, Quaternion.identity, transform);
         }
-        
+
 
     }
 
