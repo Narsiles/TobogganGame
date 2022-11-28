@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1349
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Scene
   m_RootView: {fileID: 8}
   m_MinSize: {x: 875, y: 350}
   m_MaxSize: {x: 10000, y: 10000}
@@ -73,7 +73,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 1
-  controlID: 27
+  controlID: 69
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -98,7 +98,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 28
+  controlID: 70
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -118,8 +118,8 @@ MonoBehaviour:
     y: 0
     width: 591
     height: 1299
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -273,7 +273,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 29
+  controlID: 71
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -299,7 +299,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 30
+  controlID: 72
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -493,22 +493,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/MyGame/Scenes
+    - Assets/MyGame/Script
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/MyGame/Scenes
+  - Assets/MyGame/Script
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\LogicielImportant\GithubEcoles\TobogganGame\Sled Race
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2a620000
-    m_LastClickedID: 25130
-    m_ExpandedIDs: 00000000f4610000f6610000f8610000fa61000000ca9a3b
+    m_SelectedIDs: de600000
+    m_LastClickedID: 24798
+    m_ExpandedIDs: 00000000c4600000c6600000c8600000ca60000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -536,7 +536,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f4610000f6610000f8610000fa610000
+    m_ExpandedIDs: 00000000c4600000c6600000c8600000ca600000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -628,7 +628,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 45
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -668,21 +668,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: e667ffff9e6cffff1a6dffffac6fffff1470ffffec90ffff3092ffffa2a2ffff9aceffffe8d3ffffd2faffff3661000044610000826300009c630000a6630000c0630000cc630000e063000056650000
+      m_ExpandedIDs: e4f8ffff18fbffff6e610000826100009a610000ac610000bc610000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: ------PLAYER------
-        m_OriginalName: ------PLAYER------
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 25942
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 6}
       m_SearchString: 
@@ -920,7 +920,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 473.5462, y: 1238.0332, z: -141.25305}
     speed: 2
-    m_Value: {x: 473.5462, y: 1238.0332, z: -141.25305}
+    m_Value: {x: -2.5703676, y: 1.7396547, z: 1.0219957}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -969,11 +969,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.15458393, y: -0.04740073, z: 0.008169299, w: 0.986942}
     speed: 2
-    m_Value: {x: 0.15455109, y: -0.048874635, z: 0.0084000565, w: 0.98673946}
+    m_Value: {x: 0.20512427, y: -0.28582904, z: 0.06315807, w: 0.93393624}
   m_Size:
     m_Target: 757.6018
     speed: 2
-    m_Value: 757.6018
+    m_Value: 10.312457
   m_Ortho:
     m_Target: 0
     speed: 2
